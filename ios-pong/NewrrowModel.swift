@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Newrrow: Identifiable {
+struct Newrrow: Identifiable, Hashable {
     let id: Int
     let name: String
     let content: String
